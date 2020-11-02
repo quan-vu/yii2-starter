@@ -242,6 +242,13 @@ sudo ln -s $PWD/config/nginx.conf /etc/nginx/sites-enabled/yii2-starter.com.conf
 sudo nginx -t
 ```
 
+Install library dependencies
+
+```shell
+cd htdocs
+composer install
+```
+
 Start project in development
 
 ```shell
